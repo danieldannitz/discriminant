@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="./calculator-svgrepo-com.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="calc">
+        <h1>Calculadora do número Discriminante</h1>
+        <label for="">Δ = b² - 4ac</label>
+        <input type="number" name="" id="val1" placeholder="Valor de A" />
+        <input type="number" name="" id="val2" placeholder="Valor de B" />
+        <input type="number" name="" id="val3" placeholder="Valor de C" />
+        <input type="button" value="Enviar" id="send" />
+        <span>O valor discriminante é:</span>
+        <h1 id="total"></h1>
+      </div>
+      <div class="about">
+        <h2>Sobre</h2>
+        <p>
+          O discriminante, representado pela letra grega Δ, corresponde ao
+          radicando da fórmula resolutiva e tem o valor do coeficiente b elevado
+          à segunda potência, menos o produto de quatro pelos coeficientes a e
+          c.
+        </p>
+        <a
+          href="https://www.infoescola.com/matematica/discriminante/"
+          target="_blank"
+          >Veja mais aqui</a
+        >
+      </div>
+    </div>
+  </body>
+  <script src="../javascript/app.js"></script>
+</html>
