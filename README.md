@@ -1,2 +1,2 @@
 # discriminant
-https://danieldannitz.github.io/discriminant/public/index.html
+demo: https://danieldannitz.github.io/discriminant/public/index.html
